@@ -2,7 +2,6 @@
 
 import pymongo
 
-# connect to mongoDB, create DB and collection
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["testdb"]
 mycol = mydb["people"]
